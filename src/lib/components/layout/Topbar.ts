@@ -1,4 +1,4 @@
-import type { NavigationItem } from '@/types/navigation';
+import type { NavigationItem } from '$lib/types/navigation';
 
 export function getNavigationItems(): NavigationItem[] {
 	return [

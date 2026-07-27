@@ -1,4 +1,4 @@
-import type { SocialLink } from '@/types/social_link';
+import type { SocialLink } from '$lib/types/social_link';
 
 export const socialLinks: SocialLink[] = [
 	{

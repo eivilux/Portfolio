@@ -8,7 +8,6 @@
 	>
 		<div class="text-sm text-muted-subtle">© 2026 Céline Campi. Tous droits réservés.</div>
 
-		<!-- Navigation desktop -->
 		<div class="flex gap-6 text-xs text-muted-subtle uppercase">
 			{#each socialLinks as item}
 				<a href={`${item.url}`} class="transition-colors hover:text-primary/70" target="_blank">

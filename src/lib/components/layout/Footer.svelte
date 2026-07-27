@@ -11,7 +11,7 @@
 		<!-- Navigation desktop -->
 		<div class="flex gap-6 text-xs text-muted-subtle uppercase">
 			{#each socialLinks as item}
-				<a href={`#${item.title}`} class="transition-colors hover:text-primary/70">
+				<a href={`${item.url}`} class="transition-colors hover:text-primary/70" target="_blank">
 					{item.title}
 				</a>
 			{/each}

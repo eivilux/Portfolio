@@ -16,6 +16,6 @@ export const socialLinks: SocialLink[] = [
 	// Always put him
 	{
 		title: 'Mention légales',
-		url: 'todo'
+		url: '/documents/legal_mentions.pdf'
 	}
 ];

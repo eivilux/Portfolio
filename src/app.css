@@ -1,2 +1,11 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+@theme {
+	--spacing-site: 80rem;
+	--color-background: #121212;
+	--color-surface: #1e1e1e;
+	--color-primary: #d4af37;
+	--color-text: #ffffff;
+	--color-muted: #d1d5db;
+}

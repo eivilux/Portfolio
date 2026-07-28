@@ -9,7 +9,7 @@
 <div class="flex min-h-screen flex-col bg-background">
 	<Topbar />
 
-	<main class="flex-1">
+	<main class="flex-1 pt-topbar">
 		<Container />
 	</main>
 

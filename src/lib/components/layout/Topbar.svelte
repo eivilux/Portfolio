@@ -5,8 +5,10 @@
 	const responsiveNavigationItems = getCollapsedNavigationItems();
 </script>
 
-<nav class="sticky border-b border-neutral-800 px-[30px] backdrop-blur-md">
-	<div class="mx-auto flex h-16 w-full max-w-[var(--spacing-site)] items-center justify-between">
+<nav class="fixed top-0 left-0 z-50 w-full border-b border-neutral-800 px-[30px] backdrop-blur-2xl">
+	<div
+		class="mx-auto flex h-topbar w-full max-w-[var(--spacing-site)] items-center justify-between"
+	>
 		<div>
 			<a href="#top" class="text-xl font-semibold text-text uppercase"> Céline Campi </a>
 		</div>

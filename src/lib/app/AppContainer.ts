@@ -6,37 +6,47 @@ import {
 	toContainerItemView
 } from '$lib/types/container_item';
 import MockItem from '$lib/components/sections/MockItem.svelte';
-import Vision from '$lib/components/sections/Vision.svelte';
+import Portfolio from '$lib/components/sections/Portfolio.svelte';
 
-//TODO: Add portofilio, but not display it in the topbar
 class AppContainer {
 	inner: ContainerItem[] = [];
 
 	constructor() {
 		const raw_inner: ContainerItemRaw[] = [
 			{
+				name: 'Portfolio',
+				important: false,
+				topbar: false,
+				content: Portfolio
+			},
+			{
 				name: 'Vision',
 				important: false,
-				content: Vision
+				topbar: true,
+				content: MockItem
 			},
 			{
 				name: 'Expertises',
 				important: false,
+				topbar: true,
 				content: MockItem
 			},
 			{
 				name: 'Conférences',
 				important: false,
+				topbar: true,
 				content: MockItem
 			},
 			{
 				name: 'Podcast',
 				important: false,
+				topbar: true,
 				content: MockItem
 			},
 			{
 				name: 'Contact',
 				important: true,
+				topbar: true,
 				content: MockItem
 			}
 		];
@@ -50,6 +60,10 @@ class AppContainer {
 
 	items(): ContainerItemView[] {
 		return this.inner.map(toContainerItem);
+	}
+
+	topbar_items(): ContainerItemView[] {
+		return this.inner.filter((item) => item.topbar).map(toContainerItemView);
 	}
 }
 

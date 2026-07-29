@@ -12,7 +12,7 @@
 
 		<!-- Navigation desktop -->
 		<div class="hidden gap-10 text-xs text-muted uppercase md:flex">
-			{#each app_container.items() as item}
+			{#each app_container.topbar_items() as item}
 				<a href={`#${item.link}`} class="transition-colors hover:text-primary/70">
 					{item.name}
 				</a>

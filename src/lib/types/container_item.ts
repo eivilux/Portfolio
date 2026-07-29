@@ -3,6 +3,7 @@ import type { Component } from 'svelte';
 export interface ContainerItemRaw {
 	name: string;
 	important: boolean;
+	topbar: boolean;
 	content: Component;
 }
 
@@ -10,6 +11,7 @@ export interface ContainerItem {
 	name: string;
 	link: string;
 
+	topbar: boolean;
 	important: boolean;
 
 	content: Component;
@@ -28,6 +30,7 @@ export function toContainerItem(item: ContainerItemRaw): ContainerItem {
 			.normalize('NFD')
 			.replace(/[\u0300-\u036f]/g, '')
 			.toLowerCase(),
+		topbar: item.topbar,
 		important: item.important,
 		content: item.content
 	};

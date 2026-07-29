@@ -2,9 +2,9 @@
 	import { app_container } from '$lib/app/AppContainer';
 </script>
 
-<nav class="fixed top-0 left-0 z-50 w-full border-b border-neutral-800 px-[30px] backdrop-blur-2xl">
+<nav class="fixed top-0 left-0 z-50 w-full border-b border-neutral-800 backdrop-blur-xl">
 	<div
-		class="mx-auto flex h-topbar w-full max-w-[var(--spacing-site)] items-center justify-between"
+		class="mx-auto flex h-topbar w-full max-w-[var(--spacing-site)] items-center justify-between px-[clamp(var(--spacing-topbar-margin-min),calc(var(--spacing-topbar-margin-min)+(100vw-var(--spacing-site))*0.4),50px)]"
 	>
 		<div>
 			<a href="#top" class="text-xl font-semibold text-text uppercase"> Céline Campi </a>

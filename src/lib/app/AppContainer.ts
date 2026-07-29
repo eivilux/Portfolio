@@ -5,8 +5,10 @@ import {
 	toContainerItem,
 	toContainerItemView
 } from '$lib/types/container_item';
-import MockItem from '$lib/components/layout/MockItem.svelte';
+import MockItem from '$lib/components/sections/MockItem.svelte';
+import Vision from '$lib/components/sections/Vision.svelte';
 
+//TODO: Add portofilio, but not display it in the topbar
 class AppContainer {
 	inner: ContainerItem[] = [];
 
@@ -15,7 +17,7 @@ class AppContainer {
 			{
 				name: 'Vision',
 				important: false,
-				content: MockItem
+				content: Vision
 			},
 			{
 				name: 'Expertises',

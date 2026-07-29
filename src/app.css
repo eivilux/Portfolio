@@ -2,7 +2,8 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
-	--spacing-site: 80rem;
+	--spacing-site: 85rem;
+	--spacing-topbar-margin-min: 20px;
 	--color-background: #121212;
 	--color-surface: #1e1e1e;
 	--color-primary: #d4af37;

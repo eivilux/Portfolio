@@ -20,3 +20,23 @@ export interface ContainerItemView {
 	link: string;
 	content: Component;
 }
+
+export function toContainerItem(item: ContainerItemRaw): ContainerItem {
+	return {
+		name: item.name.toUpperCase(),
+		link: item.name
+			.normalize('NFD')
+			.replace(/[\u0300-\u036f]/g, '')
+			.toLowerCase(),
+		important: item.important,
+		content: item.content
+	};
+}
+
+export function toContainerItemView(item: ContainerItem): ContainerItemView {
+	return {
+		name: item.name,
+		link: item.link,
+		content: item.content
+	};
+}

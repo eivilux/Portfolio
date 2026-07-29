@@ -1,4 +1,10 @@
-import type { ContainerItemRaw, ContainerItem, ContainerItemView } from '$lib/types/container_item';
+import {
+	type ContainerItemRaw,
+	type ContainerItem,
+	type ContainerItemView,
+	toContainerItem,
+	toContainerItemView
+} from '$lib/types/container_item';
 import MockItem from '$lib/components/layout/MockItem.svelte';
 
 class AppContainer {
@@ -33,35 +39,15 @@ class AppContainer {
 			}
 		];
 
-		const inner: ContainerItem[] = raw_inner.map((item) => ({
-			name: item.name.toUpperCase(),
-			link: item.name
-				.normalize('NFD')
-				.replace(/[\u0300-\u036f]/g, '')
-				.toLowerCase(),
-			important: item.important,
-			content: item.content
-		}));
-
-		this.inner = inner;
+		this.inner = raw_inner.map(toContainerItem);
 	}
 
 	importants(): ContainerItemView[] {
-		return this.inner
-			.filter((item) => item.important)
-			.map((item) => ({
-				name: item.name,
-				link: item.link,
-				content: item.content
-			}));
+		return this.inner.filter((item) => item.important).map(toContainerItemView);
 	}
 
 	items(): ContainerItemView[] {
-		return this.inner.map((item) => ({
-			name: item.name,
-			link: item.link,
-			content: item.content
-		}));
+		return this.inner.map(toContainerItem);
 	}
 }
 

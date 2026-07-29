@@ -1,10 +1,10 @@
 <script lang="ts">
-	import { containerList } from './Container';
+	import { app_container } from '$lib/app/AppContainer';
 </script>
 
 <nav>
-	{#each containerList as item, index}
-		<div class="w-full {index !== 0 ? 'border-t border-neutral-800' : ''}">
+	{#each app_container.items() as item, index}
+		<div class="w-full {index !== 0 ? 'border-t border-neutral-800' : ''}" id={item.link}>
 			<div class="mx-auto flex w-full max-w-[var(--spacing-site)] flex-col px-[10px] py-[80px]">
 				<div class="pb-4 text-primary">
 					0{index} — {item.name}

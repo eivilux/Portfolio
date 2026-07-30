@@ -9,6 +9,7 @@ import MockItem from '$lib/components/sections/MockItem.svelte';
 import Portfolio from '$lib/components/sections/Portfolio.svelte';
 import Testimonials from '$lib/components/sections/Testimonials.svelte';
 import Contact from '$lib/components/sections/Contact.svelte';
+import Vision from '$lib/components/sections/Vision.svelte';
 
 class AppContainer {
 	inner: ContainerItem[] = [];
@@ -25,7 +26,7 @@ class AppContainer {
 				name: 'Vision',
 				important: false,
 				topbar: true,
-				content: MockItem
+				content: Vision
 			},
 			{
 				name: 'Expertises',

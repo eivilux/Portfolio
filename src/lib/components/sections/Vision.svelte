@@ -1,8 +1,8 @@
 <div class="flex flex-col gap-12 lg:grid lg:grid-cols-12 lg:gap-16">
 	<div class="lg:col-span-3">
 		<h2 class="text-4xl leading-none font-bold text-text sm:text-5xl">
-			<div>À propos de</div>
-			<div>Céline.</div>
+			<span class="inline lg:block">À propos de</span>
+			<span class="inline lg:block">Céline.</span>
 		</h2>
 	</div>
 

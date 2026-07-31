@@ -36,8 +36,8 @@
 
 	<div>
 		<a
-			href="#"
-			class="inline-block rounded-md bg-primary px-6 py-4 text-center text-background transition hover:opacity-90"
+			href="https://podcast.ausha.co/manag-airh"
+			class="block w-full rounded-md bg-primary px-6 py-4 text-center text-background transition hover:opacity-90 lg:inline-block lg:w-fit"
 		>
 			Écouter Manag'aiRH
 		</a>

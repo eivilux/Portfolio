@@ -5,7 +5,7 @@ import {
 	toContainerItem,
 	toContainerItemView
 } from '$lib/types/container_item';
-import MockItem from '$lib/components/sections/MockItem.svelte';
+import Conferences from '$lib/components/sections/Conferences.svelte';
 import Portfolio from '$lib/components/sections/Portfolio.svelte';
 import Testimonials from '$lib/components/sections/Testimonials.svelte';
 import Contact from '$lib/components/sections/Contact.svelte';
@@ -40,7 +40,7 @@ class AppContainer {
 				name: 'Conférences',
 				important: false,
 				topbar: true,
-				content: MockItem
+				content: Conferences
 			},
 			{
 				name: 'Témoignages',

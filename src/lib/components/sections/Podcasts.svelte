@@ -37,9 +37,9 @@
 
 	<div class="my-12 overflow-hidden rounded-lg">
 		<img
-			src="/images/managairh-banner.jpg"
+			src="/images/banniere.png"
 			alt="Manag'aiRH - Podcast RH et management"
-			class="h-64 w-full object-cover sm:h-80"
+			class="h-64 w-full object-contain sm:h-80"
 		/>
 	</div>
 

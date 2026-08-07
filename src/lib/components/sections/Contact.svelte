@@ -2,6 +2,7 @@
 	let fullname = '';
 	let email = '';
 	let organization = '';
+	let date = '';
 	let project = '';
 </script>
 
@@ -76,6 +77,17 @@
 			placeholder="Organisation"
 			class="w-full border-b border-muted-subtle bg-transparent pb-4 text-text transition-colors outline-none placeholder:text-muted focus:border-primary"
 		/>
+
+		<div>
+			<label class="mb-2 block text-xs font-semibold tracking-[0.3em] text-primary uppercase">
+				Date souhaitée
+			</label>
+			<input
+				bind:value={date}
+				type="date"
+				class="w-full border-b border-muted-subtle bg-transparent pb-4 text-text transition-colors outline-none focus:border-primary"
+			/>
+		</div>
 
 		<textarea
 			bind:value={project}

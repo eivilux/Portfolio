@@ -5,15 +5,15 @@
 <div class="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
 	<div class="flex flex-col justify-around gap-6 lg:col-span-5">
 		<img
-			src="/images/conferences.jpg"
+			src="/images/conference.jpg"
 			alt="Intervention RH et management"
-			class="aspect-[4/3] w-full object-cover"
+			class="mx-auto w-2/3 object-contain sm:w-2/3 lg:w-3/4 xl:w-full"
 		/>
 
 		<img
-			src="/images/conferences.jpg"
+			src="/images/inspire.png"
 			alt="Intervention RH et management"
-			class="aspect-[4/3] w-full object-cover"
+			class="mx-auto w-2/3 object-contain sm:w-2/3 lg:w-3/4 xl:w-full"
 		/>
 	</div>
 

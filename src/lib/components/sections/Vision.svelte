@@ -8,15 +8,26 @@
 
 	<div class="space-y-10 lg:col-span-5">
 		<p class="text-justify text-base leading-relaxed text-muted sm:text-lg">
-			Petite, on disait de moi que je parlais beaucoup, que j'aimais être entourée, que j'étais
-			fédératrice et toujours la première à faire avancer un groupe. Des années plus tard, cette
-			petite fille m'a naturellement dirigée vers des métiers passionnants de DRH et de manager.
+			Petite, on disait de moi que je parlais beaucoup, avec tout le monde, que j’aimais bien être
+			entourée de personnes, toutes plus différentes les unes que les autres, que j’étais
+			fédératrice et toujours la première à faire avancer un groupe et à régler le moindre souci …
+			alors des dizaines d’années plus tard, quand je fais le point sur mon parcours, je me rappelle
+			cette petite fille qui est toujours bien ancrée en moi et qui s’est naturellement dirigée vers
+			des métiers passionnants de DRH et de Manager.
 		</p>
-
 		<p class="text-justify text-base leading-relaxed text-muted sm:text-lg">
-			C'est cette expertise que je partage aujourd'hui, après être moi-même sortie de ma zone de
-			confort pour devenir conférencière professionnelle. Parce que vous êtes votre plus bel outil
-			pour exploiter le champ des possibles.
+			C’est cette expertise que je souhaite aujourd’hui partager avec vous et quelle satisfaction de
+			voir la concrétisation de ce projet qui me tenait à cœur. Mais avant d’en arriver là, je suis
+			passée par de nombreux doutes et de nombreuses nuits blanches afin, entre autres, de trouver
+			les justes mots et le message approprié que je voulais transmettre … car oui, je suis bel et
+			bien sortie de ma zone de confort en devenant conférencière professionnelle.
+		</p>
+		<p class="text-justify text-base leading-relaxed text-muted sm:text-lg">
+			J’ai été à même d’aller puiser dans mes ressources et compétences pour passer à l’action avec
+			la satisfaction du dépassement de soi … et c’est cela que j’ai envie de vous transmettre lors
+			de mes conférences car vous êtes votre plus bel outil pour exploiter le champ des possibles !
+			Et quand on y greffe en plus l’agilité & l’adaptation managériale, cela donne un cocktail
+			détonant
 		</p>
 	</div>
 

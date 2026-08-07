@@ -9,7 +9,7 @@ export const expertises: Podcast[] = [
 	},
 	{
 		label: 'Thèmes',
-		title: 'Management, RH, leadership',
+		title: 'RH & Management',
 		description:
 			"Bonnes pratiques, retours d'expérience et pistes de réflexion pour vos défis quotidiens."
 	},

@@ -6,9 +6,8 @@
 			<div>du changement.</div>
 		</div>
 		<p class="mt-8 text-base leading-relaxed text-muted sm:text-lg lg:max-w-xl">
-			Céline campi, conférencière professionnelle, ancienne drh et manager. j'accompagne dirigeants,
-			managers et équipes autour de deux thématiques : l'adaptabilité managériale et le dépassement
-			de soi.
+			Céline Campi, conférencière professionnelle, ancienne DRH et Manager, je vous accompagne
+			autour de deux thématiques : l'adaptabilité managériale et le dépassement de soi.
 		</p>
 
 		<div class="mt-8 flex w-full flex-col gap-4 sm:flex-row">

@@ -2,12 +2,18 @@
 	import { conferences } from './Conferences';
 </script>
 
-<div class="flex flex-col gap-12 lg:grid lg:grid-cols-12 lg:gap-16">
-	<div class="lg:col-span-5">
+<div class="grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
+	<div class="flex flex-col justify-around gap-6 lg:col-span-5">
 		<img
 			src="/images/conferences.jpg"
-			alt="Conférence de Céline Campi"
-			class="h-full w-full object-cover"
+			alt="Intervention RH et management"
+			class="aspect-[4/3] w-full object-cover"
+		/>
+
+		<img
+			src="/images/conferences.jpg"
+			alt="Intervention RH et management"
+			class="aspect-[4/3] w-full object-cover"
 		/>
 	</div>
 
@@ -26,7 +32,7 @@
 					{conference.title}
 				</h3>
 
-				<p class="text-justify text-base leading-relaxed text-muted sm:text-lg">
+				<p class="text-justify text-base leading-relaxed whitespace-pre-line text-muted sm:text-lg">
 					{conference.description}
 				</p>
 			</div>
@@ -35,6 +41,7 @@
 				<div class="h-10"></div>
 			{/if}
 		{/each}
+
 		<a href="#contact" class="group mt-12 inline-flex w-fit flex-col gap-3">
 			<span
 				class="text-xs font-semibold tracking-[0.3em] text-primary uppercase transition-colors group-hover:text-text"

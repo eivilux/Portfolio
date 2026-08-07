@@ -2,7 +2,7 @@ import type { Stat } from '$lib/types/stat';
 
 export const stats: Stat[] = [
 	{
-		value: '20+',
+		value: '25+',
 		label: "Années d'expérience RH & management"
 	},
 	{
@@ -10,11 +10,11 @@ export const stats: Stat[] = [
 		label: 'Formats : 7, 20, 45 et 60 min'
 	},
 	{
-		value: '2',
-		label: "Pays d'intervention : France & Luxembourg"
+		value: 'Eu',
+		label: "Accompagnement et interventions auprès d'organisations européennes"
 	},
 	{
 		value: '1',
-		label: "Podcast dédié – Manag'aiRH"
+		label: "Podcast – Manag'aiRH, dédié aux RH & au management"
 	}
 ];

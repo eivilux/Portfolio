@@ -4,11 +4,14 @@
 @theme {
 	--spacing-site: 85rem;
 	--spacing-topbar-margin-min: 20px;
-	--color-background: #121212;
-	--color-surface: #1e1e1e;
-	--color-primary: #d4af37;
-	--color-text: #ffffff;
-	--color-muted: #d1d5db;
-	--color-muted-subtle: #6b7280;
+
+	/* Thème gris graphite clair */
+	--color-background: #303030; /* gris foncé adouci */
+	--color-surface: #3a3a3a; /* cartes / blocs */
+	--color-primary: #d4af37; /* jaune conservé */
+	--color-text: #f5f5f5; /* blanc doux */
+	--color-muted: #c4c4c4; /* gris clair */
+	--color-muted-subtle: #8a8a8a;
+
 	--spacing-topbar: 4rem;
 }

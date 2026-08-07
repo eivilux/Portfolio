@@ -14,6 +14,9 @@ import Vision from '$lib/components/sections/Vision.svelte';
 import Expertises from '$lib/components/sections/Expertises.svelte';
 import Podcasts from '$lib/components/sections/Podcasts.svelte';
 import Stats from '$lib/components/sections/Stats.svelte';
+import Videos from '$lib/components/sections/Videos.svelte';
+import Video from '$lib/components/sections/Video.svelte';
+import Pictures from '$lib/components/sections/Pictures.svelte';
 
 class AppContainer {
 	inner: ContainerItem[] = [];
@@ -63,6 +66,13 @@ class AppContainer {
 				content: Testimonials
 			},
 			{
+				name: 'Vidéos',
+				numbered: false,
+				important: false,
+				topbar: false,
+				content: Videos
+			},
+			{
 				name: 'Podcast',
 				numbered: true,
 				important: false,
@@ -70,11 +80,25 @@ class AppContainer {
 				content: Podcasts
 			},
 			{
+				name: 'Vidéo',
+				numbered: false,
+				important: false,
+				topbar: false,
+				content: Video
+			},
+			{
 				name: 'Contact',
 				numbered: true,
 				important: true,
 				topbar: true,
 				content: Contact
+			},
+			{
+				name: 'Pictures',
+				numbered: false,
+				important: false,
+				topbar: false,
+				content: Pictures
 			}
 		];
 

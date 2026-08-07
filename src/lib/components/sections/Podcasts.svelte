@@ -11,8 +11,9 @@
 
 		<p class="max-w-xl text-justify text-base leading-relaxed text-muted sm:text-lg lg:text-right">
 			Parce qu'une conférence se vit en quelques instants mais qu'une réflexion peut se poursuivre
-			bien au-delà, j'ai créé Manag'aiRH : des épisodes courts, concrets et accessibles, pensés pour
-			les managers, dirigeants et professionnels RH.
+			bien au-delà, j'ai créé Manag'aiRH : des épisodes courts de <span class="text-primary"
+				>5 minutes</span
+			>, concrets et accessibles, pensés pour les managers, dirigeants et professionnels RH.
 		</p>
 	</div>
 
@@ -32,6 +33,14 @@
 				</p>
 			</div>
 		{/each}
+	</div>
+
+	<div class="my-12 overflow-hidden rounded-lg">
+		<img
+			src="/images/managairh-banner.jpg"
+			alt="Manag'aiRH - Podcast RH et management"
+			class="h-64 w-full object-cover sm:h-80"
+		/>
 	</div>
 
 	<div>

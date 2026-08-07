@@ -3,15 +3,11 @@ import type { SocialLink } from '$lib/types/social_link';
 export const socialLinks: SocialLink[] = [
 	{
 		title: 'LinkedIn',
-		url: 'https://linkedin.com'
-	},
-	{
-		title: 'Instagram',
-		url: 'https://instagram.com'
+		url: 'https://www.linkedin.com/in/celinecampi/'
 	},
 	{
 		title: 'YouTube',
-		url: 'https://youtube.com'
+		url: 'https://www.youtube.com/@CelineCAMPI'
 	},
 	// Always put him
 	{

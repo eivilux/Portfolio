@@ -29,7 +29,7 @@
 
 	<div class="relative mx-auto inline-block w-full max-w-md md:mx-0">
 		<img
-			src="/images/portrait.jpg"
+			src="/images/portrait.jpeg"
 			alt="portrait de céline campi"
 			class="block w-full object-cover"
 		/>
